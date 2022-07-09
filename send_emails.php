@@ -30,13 +30,38 @@
     }
 
 /*
+    and you can see this error
+    Warning: mail(): "sendmail_from" not set in php.ini or custom "From:" header missing
+
+    for the error you shoud do following configarations.
+
+*/
+
+/*
     -> check readme.md file for 
         -> how to configaration send_mail.ini and php.ini files
         
         ====== file loactions =====
 
-        1. send_mail.ini -> xammp/sendmail/sendmail.ini
-        2. php.ini -> xampp/php/php.ini
+        1. php.ini -> xampp/php/php.ini
+        2. send_mail.ini -> xammp/sendmail/sendmail.ini
+        
 */
 
+//=====================================================================
+
+/*
+    file configarations
+     
+        -> xampp/php/php.ini
+
+            go to file location, 
+                xampp/php
+
+                find php configaration file
+                php.ini
+
+
+
+*/
 ?>
