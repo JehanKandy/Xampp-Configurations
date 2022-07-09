@@ -155,7 +155,7 @@
                         * force_sender=  ----> force_senderyour email address (optional)
 
         // IMPORTANT**********
-        restart your aparch and mysql servers.
+        restart your aparche and mysql servers.
         
 
 
