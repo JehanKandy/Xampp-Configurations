@@ -32,9 +32,11 @@
 /*
     -> check readme.md file for 
         -> how to configaration send_mail.ini and php.ini files
-              
+        
+        ====== file loactions =====
 
-
+        1. send_mail.ini -> xammp/sendmail/sendmail.ini
+        2. php.ini -> xampp/php/php.ini
 */
 
 ?>
