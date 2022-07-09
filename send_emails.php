@@ -19,6 +19,9 @@
     */
     $sender = "jehankandy@gmail.com";
 
+    //check the email is sucessfully send using mail() function in php
+    //in mail() you must assign 4 veriables like as following
+    
     if(mail($receiver, $subject, $body, $sender)){
         echo "Email send to ".$receiver;
     }
