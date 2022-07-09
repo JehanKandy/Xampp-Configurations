@@ -1,2 +1,7 @@
 # Xampp-Configurations
-sending emails, upload limitations  
+sending emails
+<br><br>
+
+
+<br>
+BY JEHANKANDY
