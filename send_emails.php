@@ -114,7 +114,51 @@
             ******** IMPORTANT **************
             *********************************
 
+            step 1 -> open sendmail.ini file (configaration file)
+            setp 2 -> find [sendmail] line 6 
+            step 3 -> 
+                edit like following
+                    
+                    *smtp_server=mail.mydomain.com -- to --> smtp_server=smtp.gmail.com
+                    *smtp_port=25 -- to --> smtp_port=587
+                    * ;debug_logfile=debug.log ** remove semicolen infrant of debug_logfile=debug.log
+
+                        must be like this -- debug_logfile=debug.log
+
+                    ---------------------------------------------
+                    -- THIS EDIT IS DEPEND ON YOUR INFORMATION --
+                    --------------- IMPORTANT--------------------
+                    ---------------------------------------------
+
+                    in line 46 and 47 
+                        auth_username= enter your email address
+                        auth_password= ************************
+
+                        auth_password in not you email password
+
+                        do following to get auth_password
+                            -> Go to manage you Google Account 
+                            -> then go to Security
+                            -> Under Signing in to Google
+                                - 2-Step Varification 
+                                    - must be status is on 
+                                - app password
+                                    - in there, 
+                                        - select app ---> Mail
+                                        - select device ---> Windows Computer
+
+                                        and then click GENERATE
+                                        and the you can see a pop-ip screen with 
+                                            code in yellow color background 
+
+                                        copy the code and past it in 'auth_password'
+                                    
+                        * force_sender=  ----> force_senderyour email address (optional)
+
+
+
 
 
 */
+
 ?>
