@@ -94,6 +94,8 @@
                         sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
 
                     this deped on you information
+
+            and save and close the php.ini file
     
         ====================================================
 
@@ -106,10 +108,12 @@
                 find php configaration file
                 sendmail.ini
 
-                -----------------------
-            and edit it like this
-
             --------**********----------
+
+            *********************************
+            ******** IMPORTANT **************
+            *********************************
+
 
 
 */
