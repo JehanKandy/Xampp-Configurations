@@ -21,11 +21,20 @@
 
     //check the email is sucessfully send using mail() function in php
     //in mail() you must assign 4 veriables like as following
-    
+
     if(mail($receiver, $subject, $body, $sender)){
         echo "Email send to ".$receiver;
     }
     else{
         echo "Fail to send email";
     }
+
+/*
+    -> check readme.md file for 
+        -> how to configaration send_mail.ini and php.ini files
+              
+
+
+*/
+
 ?>
