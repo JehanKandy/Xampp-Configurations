@@ -1,12 +1,12 @@
 <?php 
     //who you need to send the email
-    $receiver = "jehankandysl.gmail.com";
+    $receiver = "jehankandysl@gmail.com";
 
     //subject of the email
-    $subject = "Email Send Via XAMPP";
+    $subject = "Localhost Email Sending";
     
     //body of the email
-    $body = "JehanKandy email sending";
+    $body = "Email Send by localhost.";
     
     //your email
     /*
@@ -17,16 +17,15 @@
         otherwise email never send
 
     */
-    $sender = "jehankandy@gmail.com";
+    $sender = "From:jehankandy@gmail.com";
 
     //check the email is sucessfully send using mail() function in php
     //in mail() you must assign 4 veriables like as following
 
     if(mail($receiver, $subject, $body, $sender)){
-        echo "Email send to ".$receiver;
-    }
-    else{
-        echo "Fail to send email";
+        echo "Email sent successfully to $receiver";
+    }else{
+        echo "Sorry, failed while sending mail!";
     }
 
 /*
@@ -155,7 +154,9 @@
                                     
                         * force_sender=  ----> force_senderyour email address (optional)
 
-
+        // IMPORTANT**********
+        restart your aparch and mysqli servers.
+        
 
 
 
