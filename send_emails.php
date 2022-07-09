@@ -75,9 +75,24 @@
                         //this path depend on where you installed xampp sever
 
 
-                    after you 
+                    ****************after you configarate it******************
+                    [mail function]
 
+                        ; For Win32 only.
+                        ; https://php.net/smtp
+                        SMTP=smtp.gmail.com
+                        ; https://php.net/smtp-port
+                        smtp_port=587
 
+                        ; For Win32 only.
+                        ; https://php.net/sendmail-from
+                        sendmail_from = jehankandy@gmail.com
+
+                        ; For Unix only.  You may supply arguments as well (default: "sendmail -t -i").
+                        ; https://php.net/sendmail-path
+                        sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+                    this deped on you information
 
 
 */
