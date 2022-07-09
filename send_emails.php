@@ -61,6 +61,23 @@
                 find php configaration file
                 php.ini
 
+                -----------------------
+            and edit it like this
+
+            --------**********----------
+            
+            step 1 -> in php.ini file find -> [mail function] -->(ctrl + f)
+            step 2 -> change followings
+                    - SMTP=localhost -- to --> SMTP=smtp.gmail.com
+                    - smtp_port=25 -- to --> smtp_port=587
+                    - sendmail_from = your_email_address_here <-- enter you email for send emails
+                    - sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+                        //this path depend on where you installed xampp sever
+
+
+                    after you 
+
+
 
 
 */
