@@ -4,6 +4,7 @@ sending emails using XAMPP as localhost
   all code explains in send_email.php
   file
   
+  
   <br>
 
 
